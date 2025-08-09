@@ -1,11 +1,5 @@
-# Dependencies dasar
-streamlit==1.48.0
-pandas==2.2.2
-numpy==2.0.0
-
-# Untuk model ML
-scikit-learn==1.5.0
-joblib==1.4.0
-
-# Optional (jika ada visualisasi)
-matplotlib==3.8.0
+streamlit==1.29.0
+pandas==2.1.4
+scikit-learn==1.3.2
+numpy==1.26.2
+joblib==1.3.2
