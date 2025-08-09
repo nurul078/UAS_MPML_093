@@ -11,7 +11,7 @@ Aplikasi ini memprediksi apakah pelanggan akan memesan makanan online.
 # Load model
 @st.cache_resource
 def load_model():
-    return joblib.load('metadata.pkl')
+    return joblib.load('model.pkl')
 
 model = load_model()
 
